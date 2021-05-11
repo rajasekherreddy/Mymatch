@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/startlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/whatever_you_do"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/we_are_here_to_help_you"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/fbloginstart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_25sdp"
+            android:background="@drawable/buttonbackground"
+            android:drawableStart="@drawable/fblogo"
+            android:gravity="center"
+            android:text="@string/login_using_facebook"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb__default_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mobilelogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:background="@drawable/buttonbackground"
+            android:drawableStart="@drawable/mobilelogo"
+            android:gravity="center"
+            android:text="@string/login_using_mobile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+
+    </LinearLayout>
+</layout>

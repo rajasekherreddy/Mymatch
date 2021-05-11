@@ -1,0 +1,35 @@
+
+R	java:S125ø"<This block of commented-out lines of code should be removed.(Àúˆ£
+?
+java:S1604÷"(Make this anonymous inner class a lambda(íã±ı
+D
+java:S1604Ğ"(Make this anonymous inner class a lambda(å˜Í“ıÿÿÿÿ
+a	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(èšá¹úÿÿÿÿ
+R	java:S125ó"<This block of commented-out lines of code should be removed.(ä’íÜ
+D
+java:S1604Ô"(Make this anonymous inner class a lambda(ı€‚Èùÿÿÿÿ
+?
+java:S1604ƒ"(Make this anonymous inner class a lambda(ÙöáŞ
+w
+java:S3923ğ"[Remove this conditional structure or edit its code blocks so that they're not all the same.(æ†Öéşÿÿÿÿ
+d
+java:S1871Ü"MThis branch's code block is the same as the block for the branch on line 217.(½ãôå
+R	java:S125"<This block of commented-out lines of code should be removed.(å¨­¤
+R	java:S125¿"<This block of commented-out lines of code should be removed.(¡ù©á
+
+java:S1186ç"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+
+java:S1186Ş"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ğ¡şÿÿÿÿ
+
+java:S1186™"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áá„üÿÿÿÿ
+?
+java:S1604Æ"(Make this anonymous inner class a lambda(¥‘ ğ
+˜
+java:S1186º"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œÎÌ
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À˜Ğ¡şÿÿÿÿ
+
+java:S1186ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğŒÂ´şÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(¤ıü‘

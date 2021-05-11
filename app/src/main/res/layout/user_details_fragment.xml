@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ooredoo.goalgoalapp.activity.UserDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pb_content_bar"
+            style="?android:attr/progressBarStyleSmallInverse"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@color/opusblue"
+            android:elevation="4dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:visibility="gone" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/relative1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- <ImageView
+                         android:id="@+id/display_img"
+                         android:layout_width="match_parent"
+                         android:layout_height="@dimen/_220sdp"
+                         android:scaleType="fitXY"
+                         android:src="@drawable/ppp" />-->
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/imageSlider"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_300sdp"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="false"
+                        app:sliderCircularHandlerEnabled="true"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="@dimen/_45sdp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="@dimen/_2sdp"
+                        app:sliderIndicatorRadius="@dimen/_1sdp"
+                        app:sliderIndicatorSelectedColor="@color/pink"
+                        app:sliderIndicatorUnselectedColor="@color/white"
+                        app:sliderStartAutoCycle="true" />
+
+
+                    <!--<com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/imageSlider"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_220sdp"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderCircularHandlerEnabled="true"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="@dimen/_45sdp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="@dimen/_3sdp"
+                        app:sliderIndicatorRadius="@dimen/_2sdp"
+                        app:sliderIndicatorSelectedColor="@color/pink"
+                        app:sliderIndicatorUnselectedColor="@color/white"
+                        app:sliderScrollTimeInSec="1"
+                        app:sliderStartAutoCycle="true" />-->
+
+                    <ImageView
+                        android:id="@+id/back_bt"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:onClick="onBackClicked"
+                        android:visibility="gone"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/ic_arrow_back_black_24dp"
+                        app:tint="@color/white" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relative1"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_minus40sdp"
+                    android:layout_marginEnd="@dimen/_7sdp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:background="@color/white"
+                        app:cardElevation="0dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/relative1"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_20sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_10sdp">
+
+
+                            <RelativeLayout
+                                android:id="@+id/namerl"
+                                android:layout_width="match_parent"
+
+                                android:layout_height="wrap_content">
+
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/name_text"
+                                    android:layout_width="97dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:text="Nikki"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_15sdp"
+                                    android:textStyle="bold" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/age_text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_toRightOf="@id/name_text"
+                                    android:gravity="center"
+                                    android:text="25 Years"
+                                    android:textColor="@color/imgtext"
+                                    android:textSize="@dimen/_10sdp" />
+
+                                <TextView
+
+                                    android:id="@+id/icon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:gravity="center"
+                                    android:text="10 min ago"
+                                    android:textSize="@dimen/_9sdp" />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/namerl"
+                                android:orientation="vertical">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/about"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:text="@string/information"
+                                    android:textColor="@color/imgtext"
+                                    android:textSize="@dimen/_10sdp" />
+
+
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardElevation="0dp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        app:cardPreventCornerOverlap="false">
+
+                        <LinearLayout
+                            android:id="@+id/likeLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/like"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:src="@drawable/mainfavorite" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/cross"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:src="@drawable/mainnotinterest" />
+
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/flirt"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:src="@drawable/maininterest" />
+
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/more"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:onClick="favoriteClicked"
+                                android:src="@drawable/mainmore" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </RelativeLayout>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@color/pink"
+                    android:layout_marginStart="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_7sdp"
+                    android:layout_below="@id/relative2"
+
+                    android:gravity="center"
+                    android:text="chat with "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+
+
+                <include android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/user_details"
+                    android:layout_below="@id/chat"/>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relative3"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/recommand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="Recommended matches"
+
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/recommand"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"                        android:orientation="horizontal">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+                    <!--<LinearLayout
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/leftcornerpink"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/dotsiv"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:src="@drawable/icon"
+                            app:tint="@color/white" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/report"
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:onClick="reportClicked"
+                                android:padding="@dimen/_10sdp"
+                                android:src="@drawable/cross"
+                                app:tint="@color/white" />
+
+                            <ImageView
+                                android:id="@+id/block"
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:onClick="blockClicked"
+                                android:padding="@dimen/_10sdp"
+                                android:src="@drawable/calender"
+                                app:tint="@color/white" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>-->
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/morelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightgreyopus"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_20sdp"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Options"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/morelayoutclose"
+                            android:src="@drawable/cross" />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:id="@+id/reportuser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="reportClicked"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:background="@drawable/leftcorner"
+                                android:drawableStart="@drawable/info" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/reportusertv"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:background="@drawable/rightcorner"
+                                android:hint="Report User"
+                                android:textColorHint="@color/black" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/blockuser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="@dimen/_50sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:background="@drawable/leftcorner"
+                                android:drawableStart="@drawable/block" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/blockusertv"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:background="@drawable/rightcorner"
+                                android:text="Block User"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reportlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightgreyopus"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/_20sdp"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                style="@style/CardViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/reportappend"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Really Report "
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_alignParentEnd="true"
+                            android:id="@+id/reportlayoutclose"
+                            android:src="@drawable/cross" />
+                    </RelativeLayout>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Please tell us why"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="vertical"
+                        android:weightSum="3">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/report_recycler"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            </androidx.recyclerview.widget.RecyclerView>
+
+
+                        </RadioGroup>
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/proceedtoReport"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_gravity="top"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:background="@drawable/buttonbackground"
+                            android:gravity="center"
+                            android:text="@string/proceed_to_report"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15sdp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/imagedisplaybig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSliderbig"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/opusblue"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="false"
+                app:sliderCircularHandlerEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="@dimen/_45sdp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="@dimen/_3sdp"
+                app:sliderIndicatorRadius="@dimen/_2sdp"
+                app:sliderIndicatorSelectedColor="@color/pink"
+                app:sliderIndicatorUnselectedColor="@color/white"
+                app:sliderStartAutoCycle="true" />
+
+            <ImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:id="@+id/imagecloseClicked"
+                android:src="@drawable/cross"
+                app:tint="@color/blue" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>

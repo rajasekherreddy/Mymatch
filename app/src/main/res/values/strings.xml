@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">My Match</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="new_connection">New Connection</string>
+    <string name="registration">Registration</string>
+    <string name="registrations">Registrations</string>
+    <string name="calls">Calls</string>
+    <string name="make_a_call">Make a Call</string>
+    <string name="hot_calls">Hot Calls</string>
+    <string name="warm_calls">Warm Calls</string>
+    <string name="cold_calls">Cold Calls</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="edit">Edit</string>
+    <string name="please_fill_the_below_details_of_the_customer_to_register_for_the_internet_service">Please fill the below details of the customer to register for the internet service</string>
+    <string name="name_of_the_customer">Name of the Customer*</string>
+    <string name="mobile_number">Mobile Number*</string>
+    <string name="address_of_the_customer">Address of the Customer*</string>
+    <string name="landmark">Landmark</string>
+    <string name="document_type">Document Type</string>
+    <string name="document_number">Document Number</string>
+    <string name="plan_type">Plan Type*</string>
+    <string name="full_amount">Full Amount</string>
+    <string name="partial_amount">Partial Amount</string>
+    <string name="latitude">Latitude</string>
+    <string name="longnitude">Longnitude</string>
+    <string name="comments">Comments</string>
+    <string name="date_amp_time"><![CDATA[Date & Time*]]></string>
+    <string name="register">Register</string>
+    <string name="submit">SUBMIT</string>
+    <string name="next_visit_date_amp_time"><![CDATA[Next Visit Date & Time*]]></string>
+    <string name="pincode">Pincode</string>
+    <string name="call_type">Call type</string>
+    <string name="ftth_yes">FTTH - Yes</string>
+    <string name="ftth_no">FTTH - No</string>
+    <string name="choose_operator">Choose Operator</string>
+    <string name="enter_plan">Enter Plan</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="enter_your_name">Enter UserName</string>
+    <string name="enter_your_email_id">Enter your Email ID</string>
+
+
+    <string name="facebook_app_id">2335360206782058</string>
+    <string name="fb_login_protocol_scheme">fb2335360206782058</string>
+    <string name="facebook">Facebook</string>
+    <string name="login_with_below">Login with below</string>
+    <string name="twitter_consumer_key">MlhOmD31TQhoO4oShg0FuuHBH</string>
+    <string name="twitteFacebookActivityr_consumer_secret">Jj8ubRilKVWjXNPT3QLmz4sEk4BnEcDkenscdH12dma1cvW547</string>
+    <string name="cancelled">Login Cancelled</string>
+    <string name="signed_out">Successfully signedout.</string>
+    <string name="authentication_failed">Authentication Failed.</string>
+
+    <string name="please_complete_the_profile_to_help_us_to_show_the_best_matches_for_you">Please complete the profile to help us to show the best matches for you.</string>
+    <string name="the_photo_should_have_clear_view_women">The photo should have clear view.\nDo not hide face  The photo should be high definition. \nYou should add minimum 3 pics to receive gratification. \nPlease avoid nudity in the picture You can add maximum 10 pics</string>
+    <string name="the_photo_should_have_clear_view_men">The photo should have clear view.\nDo not hide face  The photo should be high definition. \nPlease avoid nudity in the picture You can add maximum 10 pics</string>
+    <string name="uploaded_pictures">Uploaded pictures</string>
+    <string name="nick_name">Nick name</string>
+    <string name="internetnotavailable">internet connection not available</string>
+    <string name="somethingwrong">Something Went wrong please try again</string>
+    <string name="information">Hello description</string>
+    <string name="best_matches_for_you">Best Matches for you</string>
+    <string name="proceed_to_report">Proceed to Report</string>
+    <string name="fake_suspicious">Fake/Suspicious</string>
+    <string name="advertising">Advertising</string>
+    <string name="bad_messages">Bad messages</string>
+    <string name="bad_photos">Bad photos</string>
+    <string name="you_do_not_hava_credits_to_chat_with_nikki_please_bye_the_subscription_now">You do not hava credits to chat with Nikki Please bye the subscription now</string>
+    <string name="buying_credits">Buying credits is as simple as recharge.You will get 20 characters for each credit.The more you bye,the more you chat.</string>
+    <string name="reportsuccess">Reported Successfully</string>
+    <string name="no_data_found">No data found</string>
+    <string name="ifavourite">I\'ve Favourited</string>
+    <string name="favme">Favourited me</string>
+    <string name="no_users_found">No Users Found</string>
+    <string name="my_profile">My Profile</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="distance">Distance</string>
+    <string name="age">Age</string>
+    <string name="show_me">Show me</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="feedback">Feedback</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="enter_your_comments_max_500_words">Enter your comments(Max 500 words)</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="submit_feedback">Save Changes</string>
+    <string name="upload_photos">Upload Photos</string>
+    <string name="help_amp_support"><![CDATA[Help & Support]]></string>
+    <string name="faq">FAQ</string>
+    <string name="termsofusage">Terms of usage</string>
+    <string name="claimed">Claimed</string>
+    <string name="underprocess">Under Process</string>
+    <string name="filters">Filters</string>
+    <string name="claim_rewards">Claim Rewards</string>
+    <string name="paytm_wallet">Paytm Wallet</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="amazon_pay">Amazon Pay</string>
+    <string name="phonepe">PhonePe</string>
+    <string name="account_transfer">Account Transfer</string>
+    <string name="reward_history">Reward History</string>
+    <string name="your_reward_points">Your Reward Points</string>
+    <string name="minimum_500_points_required_to_redeem_1_point_1_rupee">Minimum 500 points required to redeem. 1 point = 1 Rupee</string>
+    <string name="login_using_facebook">Login using Facebook</string>
+    <string name="login_using_mobile">Login using Mobile</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="photo_not_verified">Your photos are not verified due to mismatch with the primary photo.You are not entitled to get any benefits from Goal Goal</string>
+    <string name="photo_verified">Your photos are verified.You are entitled to get any benefits from Goal Goal</string>
+    <string name="benifits">  .You will earn points for every message you send\n
+                              .Earn points for all transactions made by your friend\n
+                              .You can only redeem  points after successful verification</string>
+    <string name="profile_not_verified">Profile Not Verified</string>
+    <string name="update_now">Update Now</string>
+    <string name="verified">Verified</string>
+    <string name="notification_settings_profile_settings_amp_more"><![CDATA[Notification settings,profile settings & more]]></string>
+    <string name="underproces">Please wait, Photo verification under process.</string>
+    <string name="minimumtwophotos">Please upload minimum two photos</string>
+    <string name="reward_summary">Reward Summary</string>
+    <string name="under_process">Under process</string>
+    <string name="requirement_detils">Requirement Detils</string>
+    <string name="joiningbonus">Joining Bonus</string>
+    <string name="points">Points</string>
+    <string name="already_purchaged">You can continue with Chat</string>
+    <string name="you_do_not_hava_credits_to_chat_with_nikki_please_buy_the_subscription_now">You do not hava credits to chat with nikki please buy the subscription now</string>
+    <string name="no_strings_attached_you_will_get_unlimited_characters_voice_and_images">No strings attached. You will get unlimited characters,voice and images</string>
+    <string name="chat_unlimited_for_six_months">Chat unlimited for six months</string>
+    <string name="_6_months">6 Months</string>
+    <string name="_1_month">1 Month</string>
+    <string name="chat_unlimited_for_one_month">Chat unlimited for one month</string>
+    <string name="buy_for_rs_1500">Buy for Rs 1500</string>
+    <string name="buy_for_rs_3500">Buy for Rs 3500</string>
+    <string name="chat_unlimited_for_three_months">Chat unlimited for three months</string>
+    <string name="buy_for_rs_5000">Buy for Rs 5000</string>
+    <string name="buy_for_rs_8000">Buy for Rs 8000</string>
+    <string name="chat_unlimited_for_one_year">Chat unlimited for one year</string>
+    <string name="_12_months">12 Months</string>
+    <string name="_3_months">3 Months</string>
+    <string name="my">My </string>
+    <string name="match">Match</string>
+    <string name="we_help_boost">We help Boost,</string>
+    <string name="your_relationships">your relationships</string>
+    <string name="whatever_you_do">Whatever you do</string>
+    <string name="we_are_here_to_help_you">We are here to help you</string>
+    <string name="_91">91</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="continue_with">continue with</string>
+    <string name="enter_4_digit_otp_sent_to_your_mobile">Enter 4 digit OTP sent to your mobile</string>
+    <string name="enter_otp_number">Enter OTP Number</string>
+    <string name="haven_t_received_otp">Haven\'t received OTP?</string>
+    <string name="resend">Resend</string>
+    <string name="by_continuing_you_accept_our">By continuing you accept our </string>
+    <string name="terms_of_usage">Terms of Usage</string>
+
+    <integer-array name="img_id_arr">
+        <item>@drawable/backimg</item>
+        <item>@drawable/backimg</item>
+        <item>@drawable/backimg</item>
+        <item>@drawable/backimg</item>
+    </integer-array>
+</resources>

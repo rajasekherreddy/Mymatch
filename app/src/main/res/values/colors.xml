@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5FBAFE</color>
+    <color name="colorPrimaryDark">#0E1A58</color>
+    <color name="colorAccent">#0E1A58</color>
+
+    <color name="orange">#F26A36</color>
+    <color name="appbackground">#F7F9FF</color>
+    <color name="viewbackground">#505FBAFE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="alphablack">#90000000</color>
+    <color name="roundselected">#77D0C4</color>
+    <color name="lightgrey">#B9B9B9</color>
+    <color name="lightgreyopus">#90B9B9B9</color>
+    <color name="blue">#083286</color>
+    <color name="opusblue">#7717256D</color>
+    <color name="pink">#FF387F</color>
+    <color name="text">#37A9FF</color>
+    <color name="imgtext">#8E8E8E</color>
+    <color name="pin_normal">#6B767E</color>
+    <color name="lightgrey1">#DFDFDF</color>
+    <color name="textgreen">#7EF4A1</color>
+
+
+
+
+</resources>

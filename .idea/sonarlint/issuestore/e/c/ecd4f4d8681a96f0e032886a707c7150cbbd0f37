@@ -1,0 +1,25 @@
+
+W	java:S125Ñ"<This block of commented-out lines of code should be removed.(÷ş€–ÿÿÿÿÿ
+N
+java:S1135ß"2Complete the task associated to this TODO comment.(¼ ³˜üÿÿÿÿ
+n
+java:S2786¥"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(Ä¬‡Şüÿÿÿÿ
+7
+java:S1170)"!Make this final field static too.(è½ÌÓ
+W
+java:S2184¹"@Cast one of the operands of this integer division to a "double".(§µ¹á
+X
+java:S2184ê"ACast one of the operands of this addition operation to a "float".(İµ¹ø
+X
+java:S2184ñ"ACast one of the operands of this addition operation to a "float".(İµ¹ø
+I
+java:S1199Ï"-Extract this nested code block into a method.(ÖºĞ¾úÿÿÿÿ
+I
+java:S1135í"2Complete the task associated to this TODO comment.(©ÒÈÒ
+h
+java:S2786š"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(œÙs
+W	java:S125´"<This block of commented-out lines of code should be removed.(³°úøøÿÿÿÿ
+8
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+6
+java:S1170!"!Make this final field static too.(°Û´
